@@ -10,17 +10,13 @@
 <body>
     <div class="login-container">
         <h2>Sign Up</h2>
-        <form>
-        
-            <input type="text" placeholder="Enter Username">
-            <input type="text" placeholder="Enter Email">
-            <input type="password" placeholder="Enter Password">
-        
-        <button type="button">Sign up</button>
+        <form id="signup-form">
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <input type="email" name="email" placeholder="Enter Email" required>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <button type="submit">Sign up</button>
+        </form>
         <p>Already have an Account? <a href="log_in.html">Log In</a></p>
     </div>
-</form>
-
 </body>
 </html>
-
