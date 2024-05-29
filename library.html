@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="library.css">
 </head>
 <body>
-    <div class="library-container">
-        <h1>Welcome to the Library Management System.......</h1>
-        <p>Explore and manage your library resources.</p>
-        <div id="pdf-container">
-            <h2>Available PDFs</h2>
-            <ul id="pdf-list">
-                <!-- PDFs will be dynamically loaded here -->
-            </ul>
+    
+    <div class="container">
+        <div class="form-container" >
+        <div class="left-side">
+        <h1>Welcome to the library</h1>
+        <img src="library.jpg" width="500" class=" logo"> 
+        <p>Find the book you are looking for online</p>
+        <form id="search-form">
+            <input type="text" placeholder="Enter name of book">
+            <button type="submit">Search</button><br>
+        <table classname="table-content"><br>
+            <thead class="table_header">
+                <th>ID</th>
+                <th>Book name</th>
+                <th>Download</th>
+            </thead>
+            <tbody>
+                <td>input book ID</td>
+                <td>input book name </td>
+                <td><a href=""></a>link to download the book</a></td>
+            </tbody>
+        </table> 
+        <br>
+            <a href="log_in.html">Log out</a>            
         </div>
-    </div>
-    <script src="index.js" defer></script>
+        </div>   
+        <div class="right-side">
+        </div>        
 </body>
 </html>
